@@ -1,0 +1,2 @@
+kubectl get pods -b kube-system
+kubectl exec etcd-master -n kube-system etcdctl get / --prefix --keys-only
